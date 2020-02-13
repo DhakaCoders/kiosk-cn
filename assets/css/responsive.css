@@ -26,6 +26,12 @@
 	h3{
 		font-size: 27px;
 	}
+	.hm-dsc-box-bg h1{
+		font-size: 45px;
+	}
+	.ks-dsc-wrp span{
+		font-size: 46px;
+	}
 	
 
 }
@@ -45,6 +51,12 @@
 	}
 	h3{
 		font-size: 26px;
+	}
+	.hm-dsc-box-bg h1{
+		font-size: 43px;
+	}
+	.ks-dsc-wrp span{
+		font-size: 44px;
 	}
 	
 	
@@ -69,6 +81,13 @@
 	h4{
 		font-size: 23px;
 	}
+	.hm-dsc-box-bg h1{
+		font-size: 40px;
+	}
+	.ks-dsc-wrp span{
+		font-size: 40px;
+		padding-bottom: 30px;
+	}
 }
 
 @media(max-width: 575px){
@@ -90,11 +109,19 @@
 	h4{
 		font-size: 22px;
 	}
+	.hm-dsc-box-bg h1{
+		font-size: 37px;
+	}
+	.ks-dsc-wrp span{
+		font-size: 37px;
+	}
 
 }
 
 @media(max-width: 479px){
-
+	.hm-dsc-box-bg h1 {
+	    font-size: 28px;
+	}
 
 }
 

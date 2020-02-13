@@ -5,7 +5,7 @@ hm-content-sec-wrp
 */
 .hm-content-sec-wrp{
 	padding-top: 70px;
-	padding-bottom: 100px;
+	padding-bottom: 300px;
 }
 .hm-dsc-wrp > h1{
 	margin: 0;
@@ -106,7 +106,7 @@ hm-content-sec-wrp
 ---------------------
 */
 .ks-form-sec-wrp{
-	padding-bottom: 100px;
+	padding-bottom: 250px;
 }
 .ks-form-block-wrp{
 	max-width: 915px;
@@ -227,6 +227,13 @@ hm-content-sec-wrp
 		font-size: 26px;
 		line-height: 28px;
 	}
+	.hm-content-sec-wrp {
+	    padding-top: 60px;
+	    padding-bottom: 250px;
+	}
+	.ks-form-sec-wrp {
+	    padding-bottom: 200px;
+	}
 
 
 }
@@ -262,6 +269,13 @@ hm-content-sec-wrp
 		font-size: 24px;
 		line-height: 26px;
 	}
+	.hm-content-sec-wrp {
+	    padding-top: 60px;
+	    padding-bottom: 200px;
+	}
+	.ks-form-sec-wrp {
+	    padding-bottom: 150px;
+	}
 }
 
 @media(max-width: 767px){
@@ -272,8 +286,8 @@ hm-content-sec-wrp
 	    margin-bottom: 30px;
 	}
 	.hm-content-sec-wrp {
-	    padding-top: 50px;
-	    padding-bottom: 80px;
+	    padding-top: 60px;
+	    padding-bottom: 150px;
 	}
 	.ftr-logo{
 		text-align: center;
@@ -291,6 +305,9 @@ hm-content-sec-wrp
 	}
 	.ks-dsc-sec-wrp {
 	    padding-top: 50px;
+	}
+	.ks-form-sec-wrp {
+	    padding-bottom: 100px;
 	}
 }
 

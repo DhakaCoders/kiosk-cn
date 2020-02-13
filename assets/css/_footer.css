@@ -1,0 +1,9 @@
+.footer-wrp{
+	background: #f5f5f5;
+	padding: 55px 0;
+}
+.ftr-logo a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+}

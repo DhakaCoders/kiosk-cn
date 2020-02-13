@@ -23,17 +23,20 @@ hm-content-sec-wrp
 	float: left;
 }
 .hm-dsc-box-lft{
+	width: 50%;
+	float: left;
 	padding-right: 34px;
-	position: relative;
 }
 .hm-dsc-box-rgt{
+	width: 50%;
+	float: left;
 	padding-left: 34px;
-	position: relative;
 }
 .hm-dsc-box{
 	background: #2189ca;
 	min-height: 525px;
 	padding: 40px 35px;
+	position: relative;
 }
 .hm-dsc-box h1{
 	margin: 0;
@@ -53,10 +56,11 @@ hm-content-sec-wrp
 	padding-bottom: 40px;
 	display: inline-block;
 	vertical-align: baseline;
+	font-weight: 700;
 }
 .ks-dsc-wrp h1{
 	margin: 0;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 .ks-dsc-wrp p{
 	font-size: 28px;

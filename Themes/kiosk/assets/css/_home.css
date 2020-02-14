@@ -358,6 +358,9 @@ hm-content-sec-wrp
 	.page-content {
 	    padding:100px 0;
 	}
+	.hm-content-sec-wrp {
+	    padding-bottom: 120px;
+	}
 }
 
 @media(max-width: 479px){

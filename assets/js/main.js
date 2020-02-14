@@ -127,6 +127,4 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 }
 
-    new WOW().init();
-
 })(jQuery);

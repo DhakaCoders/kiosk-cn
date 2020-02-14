@@ -37,12 +37,20 @@ hm-content-sec-wrp
 	min-height: 525px;
 	position: relative;
 }
+.hm-dsc-box-bg > a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
 .hm-dsc-box{
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	padding: 40px 35px;
+	z-index: 10;
 }
 .hm-dsc-box-bg h1{
 	margin: 0;
@@ -55,6 +63,9 @@ hm-content-sec-wrp
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: baseline;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 .hm-dsc-box-bg h1 a:hover{
 	color: #272878;

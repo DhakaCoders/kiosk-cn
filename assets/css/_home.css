@@ -50,7 +50,15 @@ hm-content-sec-wrp
 	line-height: 1.2;
 	color: #fff;
 }
-
+.hm-dsc-box-bg h1 a{
+	color: inherit;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.hm-dsc-box-bg h1 a:hover{
+	color: #272878;
+}
 .ks-dsc-sec-wrp{
 	padding-top: 65px;
 }
@@ -234,6 +242,9 @@ hm-content-sec-wrp
 	.ks-form-sec-wrp {
 	    padding-bottom: 200px;
 	}
+	.page-content {
+	    padding:250px 0;
+	}
 
 
 }
@@ -276,6 +287,12 @@ hm-content-sec-wrp
 	.ks-form-sec-wrp {
 	    padding-bottom: 150px;
 	}
+	.page-content {
+	    padding:200px 0;
+	}
+	.page-content strong{
+		padding-bottom: 25px;
+	}
 }
 
 @media(max-width: 767px){
@@ -309,6 +326,12 @@ hm-content-sec-wrp
 	.ks-form-sec-wrp {
 	    padding-bottom: 100px;
 	}
+	.page-content {
+	    padding:150px 0;
+	}
+	.page-content strong{
+		padding-bottom: 20px;
+	}
 }
 
 @media(max-width: 575px){
@@ -320,6 +343,9 @@ hm-content-sec-wrp
 	}
 	#ks-form-wrp .wpforms-field-container .wpforms-field{
 		width: 100%;
+	}
+	.page-content {
+	    padding:100px 0;
 	}
 }
 

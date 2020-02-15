@@ -20,7 +20,7 @@
             <div class="hm-dsc-box-innr clearfix">
               <div class="hm-dsc-box-lft clearfix">
                 <div class="hm-dsc-box-bg">
-                  <a href="#"></a>
+                  <a href="<?php echo $box1link; ?>"></a>
                   <div class="hm-dsc-box">
                     <?php if( !empty( $hbox1['title'] ) ) printf( '<h1><a href="%s">%s</a></h1>', $box1link, $hbox1['title']); ?>
                   </div>
@@ -28,7 +28,7 @@
               </div>
               <div class="hm-dsc-box-rgt clearfix">
                 <div class="hm-dsc-box-bg">
-                  <a href="#"></a>
+                  <a href="<?php echo $box2link; ?>"></a>
                   <div class="hm-dsc-box">
                     <?php if( !empty( $hbox2['title'] ) ) printf( '<h1><a href="%s">%s</a></h1>', $box2link, $hbox2['title']); ?>
                   </div>

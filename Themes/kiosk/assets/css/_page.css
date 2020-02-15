@@ -1,4 +1,6 @@
-
+#pg-26-0, #pl-26 .so-panel {
+    margin-bottom: 0px !important;
+}
 .page-content{
 	text-align: center;
 	padding: 300px 0;

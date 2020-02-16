@@ -16,7 +16,12 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="hm-dsc-wrp clearfix">
-            <?php if( !empty( $intro['title'] ) ) printf( '<h1>%s</h1>', $intro['title']); ?>
+            <div class="intro">
+              <?php 
+              if( !empty( $intro['title'] ) ) printf( '<h1>%s</h1>', $intro['title']); 
+              if( !empty( $intro['description'] ) ) echo wpautop($intro['description']);
+              ?>
+            </div>
             <div class="hm-dsc-box-innr clearfix">
               <div class="hm-dsc-box-lft clearfix">
                 <div class="hm-dsc-box-bg">

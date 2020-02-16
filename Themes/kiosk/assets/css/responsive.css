@@ -26,13 +26,12 @@
 	h3{
 		font-size: 27px;
 	}
-	.hm-dsc-box-bg h1{
-		font-size: 45px;
-	}
 	.ks-dsc-wrp span{
 		font-size: 46px;
 	}
-	
+	body{
+		font-size: 26px;
+	}	
 
 }
 
@@ -57,6 +56,9 @@
 	}
 	.ks-dsc-wrp span{
 		font-size: 44px;
+	}
+	body{
+		font-size: 24px;
 	}
 	
 	
@@ -87,6 +89,9 @@
 	.ks-dsc-wrp span{
 		font-size: 40px;
 		padding-bottom: 30px;
+	}
+	body{
+		font-size: 22px;
 	}
 }
 
